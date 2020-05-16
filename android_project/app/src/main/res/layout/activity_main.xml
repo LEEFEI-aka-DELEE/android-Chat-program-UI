@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:text="to Chat"
+            android:id="@+id/debug_to_chat"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="to list"
+            android:id="@+id/debug_to_list"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="to load"
+            android:id="@+id/debug_to_load"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="to Profile"
+            android:id="@+id/debug_to_profile"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="to login"
+            android:id="@+id/debug_to_login"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="to register"
+            android:id="@+id/debug_to_register"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="to setting"
+            android:id="@+id/debug_to_setting"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:text="to create group"
+            android:id="@+id/debug_to_create"
+            android:onClick="change_activity_debug"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:text="to mainhub"
+            android:id="@+id/debug_to_mainhub"
+            android:onClick="change_activity_debug"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="60dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="to receive"
+                android:id="@+id/debug_to_receive"
+                android:onClick="change_activity_debug"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="to send"
+                android:id="@+id/debug_to_send"
+                android:onClick="change_activity_debug"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

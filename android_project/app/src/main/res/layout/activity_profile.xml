@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A6BDC"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitStart"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-100dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EX-Hentai"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/imageView6"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-75dp"/>
+
+    <Button
+        android:id="@+id/chat_button"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="50dp"
+        android:text="開始聊天" />
+</RelativeLayout>

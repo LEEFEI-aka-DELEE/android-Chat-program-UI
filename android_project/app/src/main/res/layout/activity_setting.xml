@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textStyle="bold"
+        android:textSize="55dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Setting_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Setting_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Set Personal Image"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/Set_personal_image"
+        android:onClick="change_activity_setting"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/Set_personal_image"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Set_personal_image"
+        android:text="Set Personal Background"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Set_personal_background"
+        android:onClick="change_activity_setting"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/Set_personal_background"
+        android:layout_below="@id/Set_personal_background"
+        android:layout_marginTop="10dp"
+        android:text="Set User Name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/Set_user_name"
+        android:onClick="change_activity_setting"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/Set_user_name"
+        android:layout_below="@id/Set_user_name"
+        android:layout_marginTop="10dp"
+        android:text="Set password"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/Set_password"
+        android:onClick="change_activity_setting"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/Set_password"
+        android:layout_below="@id/Set_password"
+        android:layout_marginTop="10dp"
+        android:text="Log out"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/Logout"
+        android:onClick="change_activity_setting"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Setting_title"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#999999"
+        android:onClick="change_activity_setting"
+        android:id="@+id/Setting_back"/>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="55dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Register_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/Register_title"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Register_account" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/Register_account"
+        android:layout_below="@id/Register_account"
+        android:layout_marginTop="30dp"
+        android:text="Password :"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/Register_password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Register_account"
+        android:layout_alignTop="@id/Register_account"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Register_account_input"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Register_password"
+        android:layout_alignTop="@id/Register_password"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Register_password_input"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Register_password"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="press here to finish"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/Register_to_main"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Register_to_main"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="back to login"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/Register_to_Login"/>
+
+</RelativeLayout>
